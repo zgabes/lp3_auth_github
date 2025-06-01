@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
               label: 'Login com GitHub (PopUp)',
               onPressed: () => Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) => LoginGitPopUpPage()),
+                MaterialPageRoute(builder: (_) => const LoginGitPopUpPage()),
               ),
             ),
             const SizedBox(height: 16),
@@ -68,7 +68,7 @@ class LoginPage extends StatelessWidget {
               label: 'Login com GitHub (Manual OAuth)',
               onPressed: () => Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) => LoginGitManualPage()),
+                MaterialPageRoute(builder: (_) => const LoginGitManualPage()),
               ),
             ),
             const SizedBox(height: 24),

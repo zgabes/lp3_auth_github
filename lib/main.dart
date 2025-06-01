@@ -37,9 +37,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/LoginPage',
       routes: {
         '/LoginPage': (context) =>  const LoginPage(), 
-        '/loginPopup': (context) =>  LoginGitPopUpPage(),
+        '/loginPopup': (context) =>  const LoginGitPopUpPage(),
         '/loginRedirect': (context) => const LoginGitRedirectPage(),
-        '/loginManual': (context) =>  LoginGitManualPage(),
+        '/loginManual': (context) =>  const LoginGitManualPage(),
         '/explicacao': (context) => const ExplanationPage(),
       },
     );
